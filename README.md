@@ -1,4 +1,4 @@
-![Terraform Version](https://img.shields.io/badge/Terraform-1.7.3-blue.svg)
+<!-- ![Terraform Version](https://img.shields.io/badge/Terraform-1.7.3-blue.svg)
 # Terraform Configuration for AWS EKS Cluster
 
 ## Overview
@@ -116,11 +116,11 @@ sudo rm -rf /usr/local/aws-cli
 
 # **Configure AWS Credentials in command line**
 ```
-$ aws configure
+<!-- $ aws configure
 AWS Access Key ID [None]: AKIASUF7DEFKSIAWMZ7K
 AWS Secret Access Key [None]: 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
 Default region name [None]: us-west-2
-Default output format [None]: json
+Default output format [None]: json -->
 
 # Verify if we are able list S3 buckets
 aws s3 ls
@@ -185,4 +185,4 @@ $ for var in AWS_ACCESS_KEY_ID AWS_SECRET_ACCESS_KEY AWS_SESSION_TOKEN AWS_SECUR
       b) *Install from hashicorp repo*
      sudo yum install -y yum-utils
      sudo yum-config-manager --add-repo https://rpm.releases.hashicorp.com/RHEL/hashicorp.repo
-     sudo yum -y install terraform
+     sudo yum -y install terraform -->
